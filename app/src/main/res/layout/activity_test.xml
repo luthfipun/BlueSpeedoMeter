@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+
+    <studio.elevenbox.bluespeedometer.BlueSpeedoMeter
+        android:id="@+id/speedo1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="32dp"
+        app:bsm_needleHeight="20dp"
+        app:bsm_needleWidth="200dp"
+        app:bsm_title="NARUTO"
+        app:bsm_titleSize="5sp"
+        app:bsm_total="123"
+        app:bsm_totalSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <studio.elevenbox.bluespeedometer.BlueSpeedoMeter
+        android:id="@+id/speedo2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        app:bsm_needleHeight="7dp"
+        app:bsm_needleWidth="70dp"
+        app:bsm_title="Produk 2"
+        app:bsm_titleSize="3sp"
+        app:bsm_total="123"
+        app:bsm_totalSize="4sp"
+        app:layout_constraintEnd_toStartOf="@+id/speedo3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/speedo1" />
+
+    <studio.elevenbox.bluespeedometer.BlueSpeedoMeter
+        android:id="@+id/speedo3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        app:bsm_needleHeight="7dp"
+        app:bsm_needleWidth="70dp"
+        app:bsm_title="Produk 2"
+        app:bsm_titleSize="3sp"
+        app:bsm_total="123"
+        app:bsm_totalSize="4sp"
+        app:layout_constraintEnd_toStartOf="@+id/speedo4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/speedo2"
+        app:layout_constraintTop_toBottomOf="@+id/speedo1" />
+
+    <studio.elevenbox.bluespeedometer.BlueSpeedoMeter
+        android:id="@+id/speedo4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        app:bsm_needleHeight="7dp"
+        app:bsm_needleWidth="70dp"
+        app:bsm_title="Produk 2"
+        app:bsm_titleSize="3sp"
+        app:bsm_total="123"
+        app:bsm_totalSize="4sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/speedo3"
+        app:layout_constraintTop_toBottomOf="@+id/speedo1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

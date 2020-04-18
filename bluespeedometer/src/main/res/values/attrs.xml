@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BlueSpeedoMeter">
+        <attr name="bsm_title" format="string" />
+        <attr name="bsm_total" format="integer" />
+        <attr name="bsm_totalAnimate" format="integer" />
+        <attr name="bsm_needleAnimate" format="integer" />
+        <attr name="bsm_needleAnimateFrom" format="float" />
+        <attr name="bsm_needleAnimateTo" format="float" />
+        <attr name="bsm_isAnimate" format="boolean" />
+        <attr name="bsm_titleSize" format="dimension" />
+        <attr name="bsm_totalSize" format="dimension" />
+        <attr name="bsm_needleWidth" format="dimension" />
+        <attr name="bsm_needleHeight" format="dimension" />
+    </declare-styleable>
+</resources>
